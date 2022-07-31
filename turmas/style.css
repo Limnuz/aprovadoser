@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(76, 79, 236);
+    color: white;
+    font-style: oblique 18pt arial;
+    font-family:"Source Sans Pro", sans-serif;    
+}
+
+header{
+    text-align: center;
+}
+
+section, menu, article{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+}
+
+#tool {
+    min-height: 300px;
+}
+
+footer{
+    font-style: italic 18pt arial;
+    text-align: center;
+}
+
+div{
+    padding: 10px;
+    margin: auto;
+}
+
+#pureLink{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+a#link1:visited {
+    color: blue;
+    font-weight: bold;
+}
+
+a#link1 {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#menu {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(212, 208, 208);
+    width: 28%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+div#menu2 {
+    
+    text-align: center;
+    justify-content: space-around;
+}
+
+menu a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#text {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    text-align: justify;
+    color: darkblue;
+}
+
+#text h1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(2, 2, 58);
+}
+
+#text h2 {
+    font-size: 20px;
+}
+ #left {
+     position: absolute;
+     top: 300px;
+     left: 10px;
+ }
+
+ #right {
+    position: absolute;
+    top: 300px;
+    right: 10px;
+}
+
+#text div{
+    text-align: center;
+}

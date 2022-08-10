@@ -21,6 +21,7 @@ section, menu, article{
 
 section {
     font-weight: bold;
+    text-align: justify;
 }
 
 #tool {
